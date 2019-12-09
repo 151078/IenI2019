@@ -17,6 +17,7 @@ function draw() {
   rect(0,0,100,100);
   
   translate(140,0);
+  Push();
   // BEGIN aanpassing
   
   stroke('cornsilk');
@@ -28,6 +29,7 @@ function draw() {
   
   translate(140,0);
   rect(0,0,100,100);
+  pop();
   translate(140,0);
   rect(0,0,100,100);  
 }
