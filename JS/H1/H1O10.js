@@ -5,15 +5,14 @@ function setup() {
   textSize(14);
   noStroke();
   //noLoop();
+  background('lavender');
 }
 
-var diameter=10
-
 function draw() {
-  background('lavender');
+  fill('wheat');
+  rect(0,0,450,30);
   fill('black');
   text("mouseX:" + round(mouseX) + " mouseY:"+round(mouseY),10,20);
   fill('indianred');
-  ellipse(mouseX,mouseY,diameter);
-  diameter++;
+  ellipse(mouseX,mouseY,10);
 }
